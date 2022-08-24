@@ -1,0 +1,26 @@
+body {
+    font-family: 'Caveat', sans-serif;
+    font-size: 2em;
+}
+section article{
+    background-color: rgb(206, 86, 38);
+    width: 40%;
+    display: inline-block;
+}
+.sideinfo{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+    color: bisque;
+    text-shadow: 20px, 20px, black;
+
+}
+
+footer{
+    text-align: center;
+}
+

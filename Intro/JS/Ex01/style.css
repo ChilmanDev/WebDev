@@ -1,0 +1,21 @@
+div{
+    width: 500px;
+    height: 500px;
+}
+
+.tabContent{
+    display: none;
+}
+
+#tab1{
+    background-color: red;
+    display: block;
+}
+
+#tab2{
+    background-color: blue;
+}
+
+#tab3{
+    background-color: green;
+}
