@@ -4,43 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Playground</title>
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Sedgwick+Ave" rel="stylesheet">
+    <title>Exercício 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
-    <script>
-        var currentTab = 'tab1';
-
-        
-        
-        function showTab(tabName) {
-            var ctab = document.getElementById(currentTab);
-            var ntab = document.getElementById(tabName);
-            ctab.style.display = 'none';
-            ntab.style.display = 'block';
-            currentTab = tabName;
-        }
-
-    </script>
+    <script src="java.js"></script>
 </head>
 
 <body>
     
     <main>
-        <button onclick="showTab('tab1')">Page 1</button>
-
-        <button onclick="showTab('tab2')">Page 2</button>
-
-        <button onclick="showTab('tab3')">Page 3</button>
-
-        <div id="tab1" class="tabContent"></div>
-
-        <div id="tab2" class="tabContent"></div>
-
-        <div id="tab3" class="tabContent"></div>
-
-          
+        <div id="buttonContainer">
+            <button id="button1" onclick="showTab('tab1')">Fase 1</button>
+            <button id="button2" onclick="showTab('tab2')">Fase 2</button>
+            <button id="button3" onclick="showTab('tab3')">Fase 3</button>
+        </div>
+        
+        <div>
+            <div id="tab1" class="tabContent"></div>
+            <div id="tab2" class="tabContent"></div>
+            <div id="tab3" class="tabContent"></div>
+        </div>           
     </main>
     <footer>
 

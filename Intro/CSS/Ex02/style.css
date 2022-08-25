@@ -1,0 +1,43 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3.4em;
+    text-align: center;
+    color: #777777;
+}
+
+table{
+    background-color: #777777;
+}
+
+td{
+    background-color: #cacaca;
+    width: 130px;
+    height: 90px;
+}
+td:hover{
+    background-color: #777777;
+    color: #cacaca;
+}
+
+.result{
+    text-align: right;
+    background-color: #777777;
+    color: white;
+    font-size: 1.8em;
+    height: 1.6em;
+}
+.result:hover{
+    background-color: #777777;
+    color: white;
+}
+
+.function{
+    background-color: #e7a007;
+}
+.function:hover{
+    background-color: #777777;
+    color: #e7a007;
+}
+
+
+

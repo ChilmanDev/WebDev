@@ -1,21 +1,44 @@
-div{
-    width: 500px;
-    height: 500px;
+
+#buttonContainer{
+    font-size: 0;
 }
+
+#button1{
+    background-color: rgb(76, 172, 216);
+}
+#button2{
+    background-color: rgb(143, 224, 150);
+}
+#button3{
+    background-color: rgb(214, 216, 125);
+}
+
 
 .tabContent{
     display: none;
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
 }
 
 #tab1{
-    background-color: red;
+    background-color: rgb(76, 172, 216);
     display: block;
 }
 
 #tab2{
-    background-color: blue;
+    background-color: rgb(143, 224, 150);
 }
 
 #tab3{
-    background-color: green;
+    background-color: rgb(214, 216, 125);
+}
+
+button{
+    width: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    border-bottom: 0;
+    font-family: 'Montserrat';
 }

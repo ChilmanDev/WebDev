@@ -1,0 +1,36 @@
+body{
+    font-size: 1.5em;
+}
+main{
+    width: 70%;
+}
+table{
+    border-spacing: 0px;
+    width: 100%;
+}
+th{
+    background-color: grey;
+    height: 30px;
+
+    border: 1px solid black;
+}
+td{
+    height: 30px;
+
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+
+.high{
+    background-color: rgb(223, 165, 41);
+}
+
+.low{
+    background-color: rgb(112, 158, 158);
+}
+
+.subheader{
+    font-weight: bold;
+}
