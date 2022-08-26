@@ -1,0 +1,78 @@
+body{
+    font-family: 'Special Elite', cursive;
+    color: #ce9178;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    font-size: 70px;
+    margin: 20px;
+}
+
+.background{
+    background-color: #262930;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25px;
+    margin: 0;
+}
+
+#board{
+    width: 800px;
+    height: 500px;
+    background-color: #262930;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 150px;
+    height: 90px;
+    margin: 3px;
+
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #ce9178;
+    background-color: #3c404b;
+    cursor: pointer;
+}
+.tile:hover{
+    background-color: #5d616e;
+}
+
+.selected{
+    background-color: #6c6e72;
+    color: rgb(187, 185, 93);
+}
+
+button{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    width: 200px;
+    height: 55px;
+    color: #262930;
+    background-color: #ce9178;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    margin: 10px;
+
+    text-align: center;
+    vertical-align: center;
+}
+button:hover{
+    background-color: #e4b29d;
+}
+
+#message{
+    visibility: hidden;
+    font-size: 30px;
+    color: rgb(228, 217, 169);
+    margin: 40px;
+}
