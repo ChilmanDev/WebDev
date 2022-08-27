@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    
+    font-weight: normal;
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #262930;
+}
+
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.colspan-2{
+    grid-column: span 2;    
+}
+
+.calculator-grid > button{
+    font-size: 3rem;
+    cursor: pointer;
+    border: 1px solid #777777;
+    outline: none;
+    background-color: #cacaca;
+    color: #777777;
+}
+.calculator-grid > button:hover{
+    background-color: #777777;
+    color: #cacaca;
+}
+
+.output{
+    grid-column: 1 / -1;
+    background-color: #777777;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.output .previous-operand{
+    color: #c0c0c0;
+    font-size: 1.5rem;
+}
+
+.output .current-operand{
+    color: white;
+    font-size: 3rem;
+}
+
+.calculator-grid > button.operator{
+    background-color: #e7a007;
+}
+.calculator-grid > button.operator:hover{
+    background-color: #777777;
+    color: #e7a007;
+}
+
+
+
