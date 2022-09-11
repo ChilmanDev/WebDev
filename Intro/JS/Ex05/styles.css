@@ -1,6 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 1.2rem;
 }
@@ -12,10 +12,11 @@ body{
 }
 
 .notepad{
+    padding: 5px;
     display: block;
-    width: 40%;
+    width: 550px;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 5%;
     align-items: center;
     justify-content: center;
     background-color: rgb(235, 227, 117);
