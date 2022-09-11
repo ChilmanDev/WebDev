@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="notepad">
+        <textarea class="note" rows="25" data-limit-rows="true" data-note></textarea>
+        <div class="buttons-holder">
+            <nav class="navigation">
+                <div class="button" id="previous" data-nav><<</div>
+                <div class="button" id="next" data-nav>>></div>
+            </nav>
+            <div class="interact">
+                <div class="button" id="save" data-save>V</div>
+                <div class="button" id="new" data-new>+</div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
