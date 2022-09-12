@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Carros</h1>
+
+        <label for="sort" class="push">Ordenar por:</label>
+        <select name="sort" id="sort" data-sort>
+            <option value="name">Nome</option>
+            <option value="rating">Popularidade</option>
+            <option value="price">Valor</option>
+        </select>
+        
+        
+        <label for="filter">Filtrar por:</label>
+        <input type="text" name="filter" id="filter" placeholder="Digite aqui" data-filter>
+       
+        
+    </header>
+    <main class="cars-list-container" data-cars-list-container>
+        <!--List of cars goes here-->
+    </main>
+</body>
+</html>

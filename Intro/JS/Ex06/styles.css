@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 1.35rem;
+}
+
+body{
+    padding: 0;
+    background-color: #5d626b;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cars-list-container{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.car{
+    display: flex;
+    background-color: rgb(255, 255, 246);
+    width: 100%;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.car:hover{
+    background-color: rgb(180, 180, 180);
+    border: 3px solid rgb(87, 87, 87);  
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 246);
+    border-bottom: 5px solid rgb(66, 66, 66);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.push{
+    margin-left: auto;
+}
+
+label{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+h1{
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+
+.content{
+    margin-left: 3%;
+}
+
+.name{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+.brand{
+    font-style: italic;
+    font-weight: lighter;
+    color: #5d626b;
+    font-size: 0.8em;
+}
+
+.car-img{
+    margin-left: 2%;
+}
+
